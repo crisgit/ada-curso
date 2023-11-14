@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+main {
+    padding-top: 7rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table thead:first-child {
+    background-color: steelblue;
+    color: #fff;
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background-color: #999;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: 900;
+    /* font-style: oblique; */
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 9.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comic Neue', cursive;
+}
+
+h2 {
+    font-size: 3.2rem; /* rem respeita o valor de font para responsividade */
+}
+
+.novo-em {
+    font-size: 300%;
+}
+
+.novo-em h2 {
+    font-size: 3.2em; /* em redefine o valor da font no css declarado em .novo-em de 300% */
+}
+
+a {
+    font-size: 2.4rem;
+    color: red;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: coral;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-color: #555;
+    background-image: url('https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /*Efeito de paralax no fundo*/
+}
+
+ul, ol {
+    padding-left: 3.2rem;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+nav.menu {
+    position: fixed;
+    background-color: steelblue;
+    width: 100%;
+    height: 7rem;
+    z-index: 1;
+}
+
+.contact-list h2 {
+    top: 7rem;
+    position: sticky;
+    background-color: limegreen;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box + span {
+    display: none;
+}
+
+.box {
+    flex: 30%;
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: blue;
+    color: #fff;
+    border: 10px solid red;
+    display: inline-block;
+    border-radius: 0.9rem;
+    position: static;
+}
+
+.box:nth-child(1) {
+    float: none;
+}
+
+/* .box:nth-child(3) {
+    float: left;
+} */
+
+.box + span {
+    clear: both;
+}
+
+/* .box:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+} */
+
+/* .box:nth-child(2) {
+    position: fixed;
+    top: 15px;
+    left: 30px;
+}
+
+.box:nth-child(n + 2){
+    display: none;
+} */
+
+img {
+    height: 10rem;
+    width: 14rem;
+    object-fit: cover;
+}
