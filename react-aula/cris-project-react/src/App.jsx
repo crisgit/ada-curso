@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
+import MeuContador from "./components/MeuContador";
 
 const tarefas = [
   { id: '1', title: 'minha primeira tarefa'},
   { id: '2', title: 'minha segunda tarefa'},
   { id: '3', title: 'minha terceira tarefa'},
   { id: '4', title: 'minha quarta tarefa'},
-]
+];
 
 export default function App() {
 
@@ -19,19 +20,22 @@ export default function App() {
       return resultadoFinal;
     }
 
-    buscarDados().then( res => setTarefas(res))
+    buscarDados().then( res => setTarefas(res));
 
   }, [])
 
   return (
     <div>
+
+      <MeuContador/>
+      
       <h1>Buscando dados</h1>
 
       <ol>
         {tarefas.map((tarefa) => {
           return (
-            <div>
-              <li key={tarefa.id}>
+            <div key={tarefa.id}>
+              <li>
                 {tarefa.title}
                 {tarefa.completed ? ' - Tarefa concluída' : null}
               </li>
