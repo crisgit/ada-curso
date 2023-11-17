@@ -23,7 +23,7 @@
 
 Curso introdutório da trilha Santander Coders 2023.2 | Front-End Angular
 
-processo do curso pela [Ada](https:https://ada.tech/sou-aluno/programas/santander-coders-2023-segunda-edicao).
+processo do curso pela [Ada](https://ada.tech/sou-aluno/programas/santander-coders-2023-segunda-edicao)
 
 ---
 
@@ -33,7 +33,7 @@ processo do curso pela [Ada](https:https://ada.tech/sou-aluno/programas/santande
   - [x] CSS
   - [x] Javascript
   - [x] Introdutório sobre o React
-  - [x] além de hospedagem no Vercel da aplicação em Vite - React em fetch api [jsonplaceholder](https://jsonplaceholder.typicode.com/todos).
+  - [x] além de hospedagem no Vercel da aplicação em Vite - React em fetch api [jsonplaceholder](https://jsonplaceholder.typicode.com/todos)
 
 ---
 
