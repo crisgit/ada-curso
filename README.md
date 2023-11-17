@@ -39,7 +39,7 @@ processo do curso pela [Ada](https://ada.tech/sou-aluno/programas/santander-code
 
 ## 🚀 Projeto introdutório em Vite - React
 
-Este projeto está hospedado no [Vercel](https://cris-project-react.vercel.app).
+Este projeto está hospedado no [Vercel](https://cris-project-react.vercel.app)
 
 ### Pré-requisitos
 
@@ -83,5 +83,5 @@ As seguintes ferramentas foram usadas na construção do projeto no curso:
 
 Feito com ❤️ por Cristina Dias 👋🏽 [Entre em contato!](https://www.linkedin.com/in/cristina-d)
 
----
+
 
